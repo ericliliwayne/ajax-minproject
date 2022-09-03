@@ -1,0 +1,222 @@
+[2022-09-03 00:00:56] getData: 0001
+[2022-09-03 13:21:37] 0001 登入成功
+[2022-09-03 13:21:37] getData: 0001
+[2022-09-03 13:41:18] getData: 0001
+[2022-09-03 13:41:21] saveData: 0001
+[2022-09-03 13:41:24] getData: 0001
+[2022-09-03 13:41:44] saveData: 0001
+[2022-09-03 13:41:45] getData: 0001
+[2022-09-03 13:45:01] getData: 0001
+[2022-09-03 13:45:20] saveData: 0001
+[2022-09-03 13:45:22] getData: 0001
+[2022-09-03 13:46:55] loadSalary: 0001
+[2022-09-03 14:19:26] getData: 0001
+[2022-09-03 14:19:32] saveData: 0001
+[2022-09-03 14:19:35] getData: 0001
+[2022-09-03 14:24:28] getData: 0001
+[2022-09-03 14:24:33] loadSalary: 0001
+[2022-09-03 14:24:37] getData: 0001
+[2022-09-03 14:24:38] loadSalary: 0001
+[2022-09-03 14:42:59] getData: 0001
+[2022-09-03 14:46:10] getData: 0001
+[2022-09-03 14:46:12] : 0001
+[2022-09-03 14:47:14] getData: 0001
+[2022-09-03 14:47:27] getData: 0001
+[2022-09-03 14:47:30] loadSalary: 0001
+[2022-09-03 14:47:30] loadSalary: 0001
+[2022-09-03 14:47:47] getData: 0001
+[2022-09-03 14:47:49] getData: 0001
+[2022-09-03 14:47:49] getData: 0001
+[2022-09-03 14:49:20] getData: 0001
+[2022-09-03 14:49:40] getData: 0001
+[2022-09-03 14:49:42] loadSalary: 0001
+[2022-09-03 14:49:45] : 0001
+[2022-09-03 14:50:01] getData: 0001
+[2022-09-03 14:50:04] loadSalary: 0001
+[2022-09-03 14:50:06] : 0001
+[2022-09-03 14:50:10] loadSalary: 0001
+[2022-09-03 14:50:54] getData: 0001
+[2022-09-03 14:50:55] loadSalary: 0001
+[2022-09-03 14:50:57] : 0001
+[2022-09-03 14:50:57] loadSalary: 0001
+[2022-09-03 14:52:54] getData: 0001
+[2022-09-03 14:52:57] loadSalary: 0001
+[2022-09-03 14:52:58] : 0001
+[2022-09-03 14:52:58] loadSalary: 0001
+[2022-09-03 14:54:18] getData: 0001
+[2022-09-03 14:56:53] getData: 0001
+[2022-09-03 14:56:54] getData: 0001
+[2022-09-03 14:56:57] loadSalary: 0001
+[2022-09-03 14:56:57] : 0001
+[2022-09-03 15:00:26] getData: 0001
+[2022-09-03 15:00:30] loadSalary: 0001
+[2022-09-03 15:01:46] getData: 0001
+[2022-09-03 15:01:47] getData: 0001
+[2022-09-03 15:01:47] getData: 0001
+[2022-09-03 15:01:48] getData: 0001
+[2022-09-03 15:01:51] loadSalary: 0001
+[2022-09-03 15:01:51] getData: 0001
+[2022-09-03 15:02:08] loadSalary: 0001
+[2022-09-03 15:02:09] getData: 0001
+[2022-09-03 15:02:26] : 0001
+[2022-09-03 15:02:26] loadSalary: 0001
+[2022-09-03 17:03:04] 0001 登入成功
+[2022-09-03 17:03:04] getData: 0001
+[2022-09-03 17:03:09] loadSalary: 0001
+[2022-09-03 17:03:09] getData: 0001
+[2022-09-03 17:03:58] loadSalary: 0001
+[2022-09-03 17:03:58] getData: 0001
+[2022-09-03 17:07:50] getData: 0001
+[2022-09-03 17:07:59] 0001 登入成功
+[2022-09-03 17:07:59] getData: 0001
+[2022-09-03 17:08:54] 0001 登入成功
+[2022-09-03 17:08:54] getData: 0001
+[2022-09-03 17:09:41] 0001 登入成功
+[2022-09-03 17:09:41] getData: 0001
+[2022-09-03 17:10:12] getData: 0001
+[2022-09-03 17:10:23] loadSalary: 0001
+[2022-09-03 17:10:24] getData: 0001
+[2022-09-03 17:11:44] getData: 0001
+[2022-09-03 17:11:56] : 0001
+[2022-09-03 17:11:56] loadSalary: 0001
+[2022-09-03 17:43:31] getData: 0001
+[2022-09-03 17:43:49] updateSalary: 0001
+[2022-09-03 17:43:49] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (''));
+[2022-09-03 17:43:50] getData: 0001
+[2022-09-03 17:46:15] getData: 0001
+[2022-09-03 17:46:16] getData: 0001
+[2022-09-03 17:49:45] : 
+[2022-09-03 17:50:17] 0001 登入成功
+[2022-09-03 17:50:18] getData: 0001
+[2022-09-03 17:50:49] getData: 0001
+[2022-09-03 19:02:46] getData: 0001
+[2022-09-03 19:02:49] loadSalary: 0001
+[2022-09-03 19:03:09] updateSalary: 0001
+[2022-09-03 19:03:10] : 0001
+[2022-09-03 19:03:10] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'memId='0001', startDateTime=NULL, salary=NULL, reason=NULL)' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES memId=?, startDateTime=?, salary=?, reason=?);
+[2022-09-03 19:06:45] 0001 登入成功
+[2022-09-03 19:06:46] getData: 0001
+[2022-09-03 19:06:47] loadSalary: 0001
+[2022-09-03 19:06:54] updateSalary: 0001
+[2022-09-03 19:06:54] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'memId='0001', startDateTime=NULL, salary=NULL, reason=NULL)' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES memId=?, startDateTime=?, salary=?, reason=?);
+[2022-09-03 19:06:54] : 0001
+[2022-09-03 19:28:13] 0001 登入成功
+[2022-09-03 19:28:13] getData: 0001
+[2022-09-03 19:28:14] loadSalary: 0001
+[2022-09-03 19:28:19] : 0001
+[2022-09-03 19:28:19] updateSalary: 0001
+[2022-09-03 19:28:19] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'memId='0001', startDateTime=NULL, salary=NULL, reason=NULL)' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES memId=?, startDateTime=?, salary=?, reason=?);
+[2022-09-03 19:30:05] 0001 登入成功
+[2022-09-03 19:30:05] getData: 0001
+[2022-09-03 19:30:06] loadSalary: 0001
+[2022-09-03 19:30:10] : 0001
+[2022-09-03 19:30:10] updateSalary: 0001
+[2022-09-03 19:30:10] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'memId='0001', startDateTime=NULL, salary=NULL, reason=NULL)' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES memId=?, startDateTime=?, salary=?, reason=?);
+[2022-09-03 19:32:52] getData: 0001
+[2022-09-03 19:33:50] getData: 0001
+[2022-09-03 19:34:08] 0001 登入成功
+[2022-09-03 19:37:22] getData: 0001
+[2022-09-03 19:37:24] loadSalary: 0001
+[2022-09-03 19:37:29] : 0001
+[2022-09-03 19:37:29] updateSalary: 0001
+[2022-09-03 19:37:29] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'memId='0001', startDateTime=NULL, salary=NULL, reason=NULL)' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES memId=?, startDateTime=?, salary=?, reason=?);
+[2022-09-03 19:45:28] getData: 0001
+[2022-09-03 19:45:29] loadSalary: 0001
+[2022-09-03 19:45:33] updateSalary: 0001
+[2022-09-03 19:45:33] : 0001
+[2022-09-03 19:45:33] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (memId=?, startDateTime=?, salary=?, reason=?));
+[2022-09-03 19:57:06] getData: 0001
+[2022-09-03 19:57:07] loadSalary: 0001
+[2022-09-03 19:57:10] updateSalary: 0001
+[2022-09-03 19:57:10] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+[2022-09-03 19:57:10] : 0001
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?, ?, ?, ?));
+[2022-09-03 20:00:57] getData: 0001
+[2022-09-03 20:00:58] loadSalary: 0001
+[2022-09-03 20:01:02] updateSalary: 0001
+[2022-09-03 20:01:02] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?, ?, ?, ?));
+[2022-09-03 20:03:37] getData: 0001
+[2022-09-03 20:03:38] loadSalary: 0001
+[2022-09-03 20:03:44] updateSalary: 0001
+[2022-09-03 20:03:44] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('0001', '', '', ''));
+[2022-09-03 20:04:02] getData: 0001
+[2022-09-03 20:04:03] loadSalary: 0001
+[2022-09-03 20:04:13] : 0001
+[2022-09-03 20:04:13] updateSalary: 0001
+[2022-09-03 20:04:13] (SQL ERROR) [42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('0001', '', '', ''));
+[2022-09-03 20:07:45] getData: 0001
+[2022-09-03 20:07:51] loadSalary: 0001
+[2022-09-03 20:07:56] : 0001
+[2022-09-03 20:07:56] updateSalary: 0001
+[2022-09-03 20:09:22] getData: 0001
+[2022-09-03 20:09:23] loadSalary: 0001
+[2022-09-03 20:09:27] : 0001
+[2022-09-03 20:09:27] updateSalary: 0001
+[2022-09-03 20:18:03] getData: 0001
+[2022-09-03 20:18:04] loadSalary: 0001
+[2022-09-03 20:18:18] getData: 0001
+[2022-09-03 20:18:19] loadSalary: 0001
+[2022-09-03 20:18:29] : 0001
+[2022-09-03 20:18:29] updateSalary: 0001
+[2022-09-03 20:18:57] getData: 0001
+[2022-09-03 20:18:58] loadSalary: 0001
+[2022-09-03 20:19:18] getData: 0001
+[2022-09-03 20:19:18] loadSalary: 0001
+[2022-09-03 20:19:25] : 0001
+[2022-09-03 20:19:25] updateSalary: 0001
+[2022-09-03 20:19:25] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('?', '?', '?', '?');
+[2022-09-03 20:34:02] getData: 0001
+[2022-09-03 20:34:04] loadSalary: 0001
+[2022-09-03 20:34:08] updateSalary: 0001
+[2022-09-03 20:34:08] : 0001
+[2022-09-03 20:34:08] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('?', '?', '?', '?');
+[2022-09-03 20:43:46] getData: 0001
+[2022-09-03 20:43:49] loadSalary: 0001
+[2022-09-03 20:43:54] : 0001
+[2022-09-03 20:43:54] updateSalary: 0001
+[2022-09-03 20:43:54] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('?', '?', '?', '?');
+[2022-09-03 20:54:36] 0001 登入成功
+[2022-09-03 20:54:36] getData: 0001
+[2022-09-03 20:55:03] loadSalary: 0001
+[2022-09-03 20:55:09] updateSalary: 0001
+[2022-09-03 20:55:09] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('?', '?', '?', '?');
+[2022-09-03 20:55:25] getData: 0001
+[2022-09-03 20:55:26] loadSalary: 0001
+[2022-09-03 20:55:30] : 0001
+lary: 0001
+[2022-09-03 20:55:30] (SQL ERROR) [HY093] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES ('?', '?', '?', '?');
+[2022-09-03 20:56:35] getData: 0001
+[2022-09-03 20:56:36] loadSalary: 0001
+[2022-09-03 20:56:41] : 0001
+[2022-09-03 20:56:41] updateSalary: 0001
+[2022-09-03 20:56:41] (SQL ERROR) [23000] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startDateTime' cannot be null
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?, ?, ?,?);
+[2022-09-03 21:03:02] getData: 0001
+[2022-09-03 21:03:04] loadSalary: 0001
+[2022-09-03 21:03:08] : 0001
+[2022-09-03 21:03:20] loadSalary: 0001
+[2022-09-03 21:03:20] loadSalary: 0001
+[2022-09-03 21:03:23] getData: 0001
+[2022-09-03 21:03:23] loadSalary: 0001
+[2022-09-03 21:03:52] : 0001
+[2022-09-03 21:06:47] getData: 0001
+[2022-09-03 21:06:47] loadSalary: 0001
+[2022-09-03 21:07:03] : 0001
+[2022-09-03 21:07:03] updateSalary: 0001
+[2022-09-03 21:07:03] (SQL ERROR) [23000] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startDateTime' cannot be null
+INSERT INTO example.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?, ?, ?,?);
