@@ -124,16 +124,16 @@ $(document).ready(function($) {
   /////////////////////////////////////////////////////
   // 新增調薪紀錄功能區
   /////////////////////////////////////////////////////
-$("#after,#salary").hide();
-$("#why,#reason").hide();
-$("#send").hide();
-$("#changeSalary").on("click",function(){
+$("#after,#salary").hide(); //預設按鈕關閉
+$("#why,#reason").hide(); //預設按鈕關閉
+$("#send").hide(); //預設按鈕關閉
+$("#changeSalary").on("click",function(){ //點擊按鈕開啟欄位及送出按鈕
   $("#after,#salary").show();
   $("#why,#reason").show();
   $("#send").show();
 })
 
-function send(){ //點擊送出
+function send(){ //點擊送出資料到process-member.php處理並隱藏欄位及送出按鈕
     let salary = $("#salary").val();
     let reason = $("#reason").val();
     let memId = $("#memId").val();
@@ -142,16 +142,22 @@ function send(){ //點擊送出
     alert('內容不能為空!');
     location.reload();
   }else{
-  $.post("../member/process-member.php",{salary,reason,memId,startDateTime},()=>{
-    console.log(salary,reason,memId,startDateTime);
+  $.post("../member/process-member.php",{'action':'updateSalary',salary,reason,memId,startDateTime},(res)=>{
+    // console.log(salary,reason,memId,startDateTime);
+    // console.log('伺服器回應',res);
     alert('新增成功!');
   })
   }
-  $("#salaryTable").html("");
+  $("#after,#salary").hide();
+  $("#why,#reason").hide();
+  $("#send").hide();
+}
+
+$("#send").click(function(e){ //新增調薪完成重新顯示在頁面上
   $.ajax({
     type: "POST",
     url: "process-member.php",
-    data: {action: "updateSalary", memId: sessionStorage.memId},
+    data: {action: "loadSalary", memId: sessionStorage.memId},
     dataType: "html"
   })
   // 伺服器端正確執行完成
@@ -159,8 +165,12 @@ function send(){ //點擊送出
     // 將回傳資料直接放入網頁區塊
     $("#salaryTable").html(data);
   })
-
-  $("#after,#salary").hide();
-  $("#why,#reason").hide();
-  $("#send").hide();
-}
+  // 伺服器端正確執行完成發生問題
+  .fail(function(obj, msg, err) {
+    alert("伺服器程式錯誤");
+  })
+  // 不管伺服器是否發生問題都要執行
+  .always(function() {
+    // do nothing
+  });
+});

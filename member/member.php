@@ -56,7 +56,7 @@ include_once("../library/config.php");
       </tr>
       <tr>
         <td>
-          <input type="hidden" name="date" value="<?=date("Y-m-d")." 00:00:00";?>" id="startDateTime">
+          <input type="hidden" name="date" value="<?=date("Y-m-d");?>" id="startDateTime">
           <button onclick="send()" id="send">送出</button>
         </td>
       </tr>

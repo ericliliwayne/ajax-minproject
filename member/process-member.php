@@ -111,7 +111,7 @@ switch ($action){
   
   case "updateSalary":
     try{
-      $sql = "INSERT INTO $cfg_db.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?, ?, ?,?)";
+      $sql = "INSERT INTO $cfg_db.salary_history (`memId`,`startDateTime`,`salary`,`reason`) VALUES (?,?,?,?)";
       $stmt = $db->prepare($sql);
       $stmt->bindValue(1, $memId);
       $stmt->bindValue(2, $startDateTime);
